@@ -4,7 +4,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "org.etronic.etronicwebapp"
-        version = "1.0.0">
+        version = "1.0.1">
 
     <name>Etronic WebApp</name>
 
@@ -12,7 +12,7 @@
         Etronic WebAPP.
     </description>
 
-    <author href="http://www.etronic.org" email="infoetronic.org">
+    <author href="http://www.etronic.org" email="info@etronic.org">
         Etronic.org
     </author>
 

@@ -18,55 +18,41 @@
 
     </head>
 	<body onload="init()">
-        <!-- Home -->
-        <section id="home" data-role="page" data-theme="b">
-            <header  data-role="header">
+
+        <!-- Info -->
+        <section id="info" data-role="page" data-theme="b">
+            <header data-role="header">
+				<a href="index.html" data-role="button" data-icon="arrow-l">Back</a>
                 <h1>
                     Etronic WebAPP
                 </h1>
             </header>
             <div data-role="content" class="content">
                 <ul data-role="listview" data-inset="true" data-theme="c">
-                    <li data-role="divider" data-theme="b">Sito Etronic.org</li>
-					<li>
-                        <a href="news.html">
-                            News
-                        </a>
+                    <li data-role="divider" data-theme="b">Etronic WebAPP</li>
+					<li data-icon="false">
+						<a href="http://www.jquerymobile.com" target="_blank">Realizzata con JQuerymobile</a>
                     </li>
 				</ul>
-				<ul data-role="listview" data-inset="true" data-theme="c">
-					<li data-role="divider" data-theme="b">Social Network</li>
-                    <li>
-                        <a href="fb.html">
-                            Facebook
-                        </a>
+                <ul data-role="listview" data-inset="true" data-theme="c">
+                    <li data-role="divider"  data-inset="false" data-theme="b">Changelog</li>
+					<li data-role="collapsible" data-mini="true">
+						<h3>Beta 1.0.1</h3>
+						<p>Aggiornata Interfaccia.<br/>Bug Fix grafica.<br/>Aggiornate Sezioni.<br/></p>
                     </li>
-                    <li>
-                        <a href="tw.html">
-                            Twitter
-                        </a>
+					<li data-role="collapsible" data-mini="true">
+						<h3>Beta 1.0</h3>
+						<p>Release iniziale.<br/>Nuova interfaccia grafica.<br/>MultiOS (Android, iOS, Html5)<br/></p>
                     </li>
 				</ul>
-				<ul data-role="listview" data-inset="true" data-theme="c">
-					<li data-role="divider" data-theme="b">Informazioni</li>
-                    <li>
-                        <a href="contatti.html">
-                            Contatti
-                        </a>
-                    </li>
-                    <li>
-                        <a href="info.html">
-                            Info App
-                        </a>
-                    </li>
-                </ul>
             </div>
             <footer data-role="footer">
-                <h2>
+				<h2>
                     Etronic.org
                 </h2>
-            </footer>
+			</footer>
         </section>
-		<!-- FINE Home -->
+		<!-- FINE Info -->
+		
     </body>
 </html>
