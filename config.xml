@@ -62,6 +62,10 @@ permission on your app, which PhoneGap requires.
 A list of available plugins are available at https://build.phonegap.com/docs/plugins
 -->
 
+ <gap:plugin name="FacebookConnect">
+   <param name="APP_ID" value="155903437779047" />
+ </gap:plugin>
+
     <!-- Define app icon for each platform. -->
     <!--
 	<icon src="icon.png" />
