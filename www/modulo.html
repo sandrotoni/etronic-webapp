@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+        <meta name="apple-mobile-web-app-capable" content="yes" /> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+        <title>
+		Etronic WebAPP
+        </title>
+		
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+ 		<link rel="stylesheet" href="css/jquery.mobile-1.3.0.css" />
+		<script type="text/javascript" src="js/jquery.mobile-1.3.0.min.js"></script>
+
+        <!-- User-generated js -->
+
+    </head>
+	<body onload="init()">
+        <!-- Modulo Invio Segnalazione -->
+        <section id="segnalazione" data-role="page" data-theme="b">
+            <header data-role="header">
+				<a href="contatti.html" data-role="button" data-icon="arrow-l">Back</a>
+                <h1>
+                    Etronic WebAPP
+                </h1>
+            </header>
+            <div data-role="content" class="content">
+			<center>
+				<form action="invio.php" method="post" id="modulo">
+					<table>
+						<tr>
+							<td>Nome:<br/>
+							<label>
+							  <input name="nome" type="text" id="nome" size="40" />
+							</label></td>
+						</tr>
+						<tr>
+							<td>Indirizzo e-mail:<br/>
+							<label>
+							  <input name="mail" type="text" id="mail" size="40" />
+							</label></td>
+						</tr>
+						<tr>
+							<td>Oggetto:<br/>
+							<label>
+							  <input name="object" type="text" id="object" size="40" value="Segnalazione WebApp Etronic"/>
+							</label></td>
+						</tr>
+						<tr>
+							<td>Messaggio:<br/>
+							<textarea name="body" cols="55" rows="20" id="body"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td><label>
+							<input type="submit" name="submit" id="submit" value="Invia" />
+							</label></td>
+						</tr>
+						<tr>
+							<td><label>
+							<input type="reset" name="cancella" id="cancella" value="Cancella" />
+							</label></td>
+						</tr>
+					</table>
+				</form>
+			</center>
+			</div>
+            <footer data-role="footer">
+				<h2>
+                    Etronic.org &copy 2013
+                </h2>
+			</footer>
+        </section>
+		<!-- FINE Modulo Invio Segnalazione -->
+	</body>
+</html>
